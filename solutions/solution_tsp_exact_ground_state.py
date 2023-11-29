@@ -1,0 +1,7 @@
+ee = NumPyMinimumEigensolver()
+result = ee.compute_minimum_eigenvalue(ising)
+print("energy of ising model:", result.eigenvalue.real)
+print("value of TSP objective C:", result.eigenvalue.real + offset)
+x = OptimizationApplication.sample_most_likely(result.eigenstate)
+print("fulfills constraints:", qubo.is_feasible(x))
+print("solution=", x)

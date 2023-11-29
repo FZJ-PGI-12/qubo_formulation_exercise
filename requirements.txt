@@ -1,0 +1,9 @@
+jupyter
+qiskit
+qiskit-optimization
+matplotlib
+pylatexenc
+seaborn
+pytest
+nbval
+pandas

@@ -1,4 +1,4 @@
-QUBO Fromulation Exercise
+QUBO Formulation Exercise
 =========================
 
 [![Running Test in CI](https://github.com/FZJ-PGI-12/qubo_formulation_exercise/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/FZJ-PGI-12/qubo_formulation_exercise/actions/workflows/python-package-conda.yml)
